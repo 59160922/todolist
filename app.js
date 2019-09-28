@@ -13,6 +13,8 @@ mock()
 function mock(){
     addtodo("hello")
     addtodo("hi")
+    list[0].completed=true
+   
 
 }
 function todoUncompelete(){
